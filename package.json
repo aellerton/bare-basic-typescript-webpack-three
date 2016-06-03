@@ -1,0 +1,27 @@
+{
+  "name": "bare-basic-typescript-webpack-three",
+  "version": "1.0.0",
+  "description": "A bare starter example using webpack to package typescript and three (webgl) into a js bundle",
+  "repository": "https://github.com/aellerton/bare-basic-typescript-webpack-three",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production node node_modules/.bin/webpack && cp src/index.html dist/index.html",
+    "watch": "./node_modules/.bin/webpack-dev-server -dev-server --content-base=./dist --watch  # but doesn't copy html or serve",
+    "devserver": "webpack-dev-server  # just the server",
+    "clean": "rm -rf ./dist/*  # just cleanup",
+    "devd": "devd -ol ./dist  # only server - better to run modd!"
+  },
+  "author": "AJE",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^3.7.0",
+    "ts-loader": "^0.8.2",
+    "typings": "^1.0.4",
+    "webpack": "^1.13.1",
+    "webpack-fail-plugin": "^1.0.4"
+  },
+  "dependencies": {
+    "three": "^0.77.1"
+  }
+}
