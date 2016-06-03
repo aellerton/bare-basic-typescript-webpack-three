@@ -1,0 +1,14 @@
+// Simple SCSS just proving SCSS->CSS works
+$bgcol: #ddd;
+$navcol: #bbe;
+
+body {
+  background-color: $bgcol;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: $navcol;
+  padding: 8px;
+}

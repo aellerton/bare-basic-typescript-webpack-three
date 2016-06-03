@@ -1,0 +1,7 @@
+{
+  "name": "bbcmicro3d",
+  "dependencies": {},
+  "globalDependencies": {
+    "three": "registry:dt/three#0.0.0+20160523041317"
+  }
+}

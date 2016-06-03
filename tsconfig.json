@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "outDir": "dist",
+    "experimentalDecorators": true
+  },
+  "rem-files": [
+    "src/app.ts",
+    "src/global.ts"
+  ],
+  "filesGlob": [
+    "./src/**/*.ts",
+    "./test/**/*.ts",
+    "./typings/index.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
+
