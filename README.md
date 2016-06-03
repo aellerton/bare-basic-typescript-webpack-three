@@ -25,12 +25,16 @@ A starter example using webpack to package typescript and [three](http://threejs
 
 - install typescript globally
 
-        npm install typescript -g 
+        npm install typescript typings -g 
 
 
 - install local modules
 
         npm install
+
+- set up typings (i.e. type info for some JavaScript modules)
+
+        typings install
 
 
 ## Building and Running: The ``modd`` way
