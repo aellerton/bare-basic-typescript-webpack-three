@@ -22,6 +22,7 @@
     "webpack-fail-plugin": "^1.0.4"
   },
   "dependencies": {
-    "three": "^0.77.1"
+    "three": "^0.77.1",
+    "three.trackball": "0.0.1"
   }
 }

@@ -2,6 +2,7 @@
   "name": "bbcmicro3d",
   "dependencies": {},
   "globalDependencies": {
-    "three": "registry:dt/three#0.0.0+20160523041317"
+    "three": "registry:dt/three#0.0.0+20160523041317",
+    "three-trackballcontrols": "registry:dt/three-trackballcontrols#0.0.0+20160317120654"
   }
 }

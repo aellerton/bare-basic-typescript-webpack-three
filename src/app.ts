@@ -31,6 +31,10 @@ function init() {
   renderer = new THREE.WebGLRenderer();
   renderer.setSize( window.innerWidth, window.innerHeight );
   document.body.appendChild( renderer.domElement );
+
+  console.log(THREE);
+  console.log(THREE.TrackballControls);
+  var controls = new THREE.TrackballControls(scene, renderer.domElement);
 }
  
 function animate() {
